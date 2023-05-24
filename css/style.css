@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -6,7 +6,7 @@
 
 html,
 body {
-    width: 100%;
+	width: 100%;
 	font-family: 'Outfit', sans-serif;
 }
 
@@ -22,7 +22,7 @@ h4 {
 	font-size: 1.5rem;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
@@ -34,17 +34,18 @@ p {
 	font-size: 1rem;
 	margin: 10px 0;
 	line-height: 1.7em;
-    font-family: 'Wix Madefor Text', sans-serif;
+	font-family: 'Wix Madefor Text', sans-serif;
 }
+
 a {
 	text-decoration: none;
 }
 
 .container {
 	max-width: 1200px;
-	margin: 0 ;
+	margin: 0;
 	padding: 0 40px 0;
-	
+
 }
 
 .btn {
@@ -75,13 +76,11 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top right;
-	background-color: whitesmoke;	
-   
-	
+	background-color: whitesmoke;
 }
 
 
-.inicio-cont{
+.inicio-cont {
 	height: 100px;
 }
 
@@ -89,7 +88,7 @@ a {
 	color: black;
 	text-decoration: none;
 	font-size: 25px;
-	
+
 }
 
 .inicio-cont a:hover {
@@ -106,15 +105,15 @@ a {
 .inicio-cont ul {
 	display: flex;
 	justify-content: space-around;
-	
-	
+
+
 }
 
 .nav-frente ul li:nth-child(2),
 .nav-frente ul li:nth-child(3),
 .nav-frente ul li:nth-child(4) {
 	margin-left: 20px;
-	
+
 }
 
 /* Mainnavbar */
@@ -139,7 +138,7 @@ a {
 }
 
 
-#nav-frente{
+#nav-frente {
 	padding-top: 120px;
 	color: black;
 }
@@ -170,45 +169,64 @@ a {
 	width: 50%;
 }
 
-.textos{
+.textos {
 	justify-content: space-around;
-	
+
 	background-color: whitesmoke;
 
 }
- 
-#navprod{
+
+#navprod {
 	font-size: larger;
 	font-weight: bolder;
-	text-align: center;
-		
+	text-align: justify;
+
 }
 
 .product {
-	display:inline-block;
-	flex-direction:column;
-	align-items:center;
+	display: inline-block;
+	flex-direction: column;
+	align-items: center;
 	width: 250px;
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #ccc;
-  }
-  
-  .product img {
+}
+
+.product img {
 	width: 150px;
 	height: 150px;
-	object-fit:fill;
+	object-fit: fill;
 	margin-bottom: 10px;
-  }
-  
-  .product h2 {
+}
+
+.product h2 {
 	margin: 0;
 	font-size: 18px;
 	text-align: center;
-  }
-  
-  .product p {
+}
+
+.product p {
 	margin: 0;
 	font-size: 16px;
-	text-align: center;
-  }
+	text-align: center;
+}
+
+#bgproductos {
+	background-image: url('/img/pocket-1609281.jpg');
+	height: 100vh;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	background-color: rgb(247, 218, 156);
+}
+
+#fprod {
+	background-color: rgb(247, 218, 156);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	border-top: #000;
+}
