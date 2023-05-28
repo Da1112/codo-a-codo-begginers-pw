@@ -118,12 +118,12 @@ a {
 
 }
 
-/* Mainnavbar */
+
 .mainnavbar {
 	background-image: linear-gradient(to right, #f0bba2, #edcaba);
 }
 
-/* Subtitle */
+
 .subtitle {
 	background: #fff;
 	padding: 70px 0;
@@ -227,6 +227,41 @@ a {
 	height: 70px;
 	border-top: #000;
 }
+
+/* carrito*/
+#product-list, #cart {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+  }
+
+#cart {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #ccc;
+  }
+  
+  #cart-items {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 10px;
+  }
+  
+  #cart-total {
+	font-weight: bold;
+  }
+  
+  #checkout-button {
+	width: 100%;
+	padding: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+  }
+
+
 
 /*Estilos Lis*/
 
