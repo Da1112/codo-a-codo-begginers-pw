@@ -178,17 +178,10 @@ a {
 
 }
 
-#navprod {
-	font-size: larger;
-	font-weight: bolder;
-	text-align: justify;
-
-}
-
 .product {
-	display: inline-block;
-	flex-direction: column;
-	align-items: center;
+	display:contents;
+	flex-direction:column;
+	align-items:center;
 	width: 250px;
 	margin-bottom: 20px;
 	padding: 10px;
@@ -215,12 +208,14 @@ a {
 }
 
 #bgproductos {
-	background-image: url('/img/mannequin-g4dd30fdb7_1280.jpg');
+	background-image: url('/img/woman_1.jpg');
 	height: 100vh;
-	position: relative;
+	position:absolute;
+	background-attachment: fixed;
+  	overflow: scroll;
 	background-repeat: no-repeat;
 	background-size:contain;
-	background-position: top right;
+	background-position:right;
 	background-color: white;
 }
 
