@@ -3,7 +3,7 @@ const productListElement = document.getElementById("product-list");
 fetch("https://fakestoreapi.com/products")
   .then((response) => response.json())
   .then((data) => {
-    const productsToShow = data.slice(0, 3); // Obtener solo los primeros 4 productos
+    const productsToShow = data.slice(0, ); // Obtener solo los primeros 4 productos
 
     productsToShow.forEach((product) => {
       const productElement = document.createElement("div");

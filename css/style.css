@@ -215,17 +215,17 @@ a {
 }
 
 #bgproductos {
-	background-image: url('/img/pocket-1609281.jpg');
+	background-image: url('/img/mannequin-g4dd30fdb7_1280.jpg');
 	height: 100vh;
 	position: relative;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:contain;
 	background-position: top right;
-	background-color: rgb(247, 218, 156);
+	background-color: white;
 }
 
 #fprod {
-	background-color: rgb(247, 218, 156);
+	background-color:rgba(245, 245, 245, 0.541);
 	position: fixed;
 	bottom: 0;
 	width: 100%;
