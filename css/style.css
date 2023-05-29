@@ -255,10 +255,12 @@ a {
   #checkout-button {
 	width: 100%;
 	padding: 10px;
-	background-color: #4caf50;
-	color: white;
-	border: none;
 	cursor: pointer;
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+
+
   }
 
 
